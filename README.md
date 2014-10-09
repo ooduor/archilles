@@ -11,3 +11,6 @@ sudo sleep 7200s; sudo pm-suspend
 * xrandr --newmode "1600x1200_60.00"  161.00  1600 1712 1880 2160  1200 1203 1207 1245 -hsync +vsync
 * xrandr --addmode VGA1 1600x1200_60.00
 * xrandr --output VGA1 --mode 1600x1200_60.00
+
+# Export only new/modified files on svn not yet checkedin
+svn status | grep '^[ADMR]' | cut -b 8- | xargs -I '{}' cp --parents {} /temporary/destination/dir
