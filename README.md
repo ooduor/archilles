@@ -14,3 +14,6 @@ sudo sleep 7200s; sudo pm-suspend
 
 # Export only new/modified files on svn not yet checkedin
 svn status | grep '^[ADMR]' | cut -b 8- | xargs -I '{}' cp --parents {} /temporary/destination/dir
+
+# Generate db schema diagrams etc PMA is knackered on Archey
+schemaspy -t mysql -db <db_name> -u root -p <password> -o <output_folder> -host localhost -dp /home/anthony/Downloads/DbToEr/mysql-connector-java-3.1.13-bin.jar
