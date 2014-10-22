@@ -17,3 +17,7 @@ svn status | grep '^[ADMR]' | cut -b 8- | xargs -I '{}' cp --parents {} /tempora
 
 # Generate db schema diagrams etc PMA is knackered on Archey
 schemaspy -t mysql -db `db_name` -u root -p `password` -o `output_folder` -host localhost -dp /home/anthony/Downloads/DbToEr/mysql-connector-java-3.1.13-bin.jar
+
+
+# regular use of this command to remove unneeded or unwanted packages
+pacman -Rns $(pacman -Qqtd)
