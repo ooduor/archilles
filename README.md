@@ -22,5 +22,7 @@ schemaspy -t mysql -db `db_name` -u root -p `password` -o `output_folder` -host 
 # regular use of this command to remove unneeded or unwanted packages
 pacman -Rns $(pacman -Qqtd)
 
-# Some need to have packages
-pacgraph, pacgraph --console,
+# Some need to have commands
+pacgraph
+pacgraph --console
+ps -ao comm,size,rss,vsize
