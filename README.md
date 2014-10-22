@@ -25,6 +25,6 @@ pacman -Rns $(pacman -Qqtd)
 # Some need to have commands
 
 
-   pacgraph
-   pacgraph --console
-   ps -ao comm,size,rss,vsize
+   pacgraph  
+   pacgraph --console  
+   ps -ao comm,size,rss,vsize  
