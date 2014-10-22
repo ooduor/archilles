@@ -23,6 +23,6 @@ schemaspy -t mysql -db `db_name` -u root -p `password` -o `output_folder` -host 
 pacman -Rns $(pacman -Qqtd)
 
 # Some need to have commands
-   pacgraph
-   pacgraph --console
-   ps -ao comm,size,rss,vsize
+...pacgraph
+...pacgraph --console
+...ps -ao comm,size,rss,vsize
