@@ -22,6 +22,9 @@ schemaspy -t mysql -db `db_name` -u root -p `password` -o `output_folder` -host 
 # regular use of this command to remove unneeded or unwanted packages
 pacman -Rns $(pacman -Qqtd)
 
+# control brightness of screen esp using secondary monitor
+redshift -l -1.300593:36.774244 -t 6500:6500 -b 0.5
+
 # Some need to have commands
 
 
