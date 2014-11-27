@@ -31,3 +31,7 @@ redshift -l -1.300593:36.774244 -t 6500:6500 -b 0.5
    pacgraph  
    pacgraph --console  
    ps -ao comm,size,rss,vsize  
+
+# Dump base64 in a string to be copy-pasted
+
+   cat here.svg | base64 -w 0
