@@ -35,3 +35,6 @@ redshift -l -1.300593:36.774244 -t 6500:6500 -b 0.5
 # Dump base64 in a string to be copy-pasted
 
    cat here.svg | base64 -w 0
+   
+# Find the top 5 mem hoggers
+   $ ps -eo pmem,pcpu,vsize,pid,cmd | sort -k 1 -nr | head -5
