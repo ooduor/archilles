@@ -10,6 +10,14 @@ git log HEAD@{5}
 
 git reset --hard HEAD@{15}
 
+*When doing sth dangerous like --hard reset above, first do...*
+
+git tag BACKUP
+
+*You can return back to it when things go owry with...*
+
+git reset --hard BACKUP
+
 *like reflog with details*
 
 git log -g 
