@@ -12,6 +12,8 @@
 
 *Squash commits long after they have been pushed. First * `git rebase -i issue-25-sth-sth~3` tilde 3 means the number of commits target from top. Then `git push origin +master`
 
+*Detailed branch details and parent branches* `git branch -avv`
+
 ***Sources***
 
 http://stackoverflow.com/questions/134882/undoing-a-git-rebase
