@@ -21,6 +21,10 @@ git pull               #to update the state to the latest remote master state
 git merge develop      #to bring chnages to local master from your develop branch
 git push origin master #push current HEAD to remote master branch
 ```
+### Deleting a branch
+Locally `git branch -D bwsr_widget_circular`
+Remote `git push --delete origin my_merged_branch`
+
 
 ***Sources***
 
