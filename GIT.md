@@ -22,7 +22,8 @@ git merge develop      #to bring chnages to local master from your develop branc
 git push origin master #push current HEAD to remote master branch
 ```
 ### Deleting a branch
-Locally `git branch -D bwsr_widget_circular`
+Locally `git branch -D my_merged_branch`
+
 Remote `git push --delete origin my_merged_branch`
 
 
