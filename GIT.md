@@ -32,3 +32,5 @@ Remote `git push --delete origin my_merged_branch`
 http://stackoverflow.com/questions/134882/undoing-a-git-rebase
 
 http://stackoverflow.com/questions/5667884/how-to-squash-commits-in-git-after-they-have-been-pushed
+
+http://stackoverflow.com/questions/5189560/squash-my-last-x-commits-together-using-git/5201642#5201642
