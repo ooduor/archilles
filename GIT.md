@@ -14,6 +14,14 @@
 
 *Detailed branch details and parent branches* `git branch -avv`
 
+### Branch merging process
+```
+git checkout master
+git pull               #to update the state to the latest remote master state
+git merge develop      #to bring chnages to local master from your develop branch
+git push origin master #push current HEAD to remote master branch
+```
+
 ***Sources***
 
 http://stackoverflow.com/questions/134882/undoing-a-git-rebase
