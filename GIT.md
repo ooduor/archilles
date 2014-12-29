@@ -11,4 +11,5 @@ git log HEAD@{5}
 git reset --hard HEAD@{15}
 
 *like reflog with details*
+
 git log -g 
