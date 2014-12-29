@@ -21,3 +21,7 @@ git reset --hard BACKUP
 *like reflog with details*
 
 git log -g 
+
+***Sources***
+
+http://stackoverflow.com/questions/134882/undoing-a-git-rebase
