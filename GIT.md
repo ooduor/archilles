@@ -10,6 +10,8 @@
 
 *like reflog with details* `git log -g`
 
+*to give summary of commit* `git show abc1234 --stat`
+
 *Squash commits long after they have been pushed. First * `git rebase -i issue-25-sth-sth~3` tilde 3 means the number of commits target from top. Then `git push origin +master`
 
 *Detailed branch details and parent branches* `git branch -avv`
