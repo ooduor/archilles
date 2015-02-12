@@ -18,6 +18,12 @@
 
 *Detailed branch details and parent branches* `git branch -avv`
 
+*Switch to master branch proper*
+```
+git fetch --all
+git reset --hard origin/master
+```
+
 ### Branch merging process
 ```
 git checkout master
