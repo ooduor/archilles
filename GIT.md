@@ -24,6 +24,12 @@ git fetch --all
 git reset --hard origin/master
 ```
 
+*Remove last commit both from local and remote [3]*
+```
+git reset --hard HEAD^ 
+git push -f
+```
+
 ### Branch merging process
 ```
 git checkout master
@@ -44,3 +50,5 @@ http://stackoverflow.com/questions/134882/undoing-a-git-rebase
 http://stackoverflow.com/questions/5667884/how-to-squash-commits-in-git-after-they-have-been-pushed
 
 http://stackoverflow.com/questions/5189560/squash-my-last-x-commits-together-using-git/5201642#5201642
+
+[3] http://stackoverflow.com/questions/4647301/rolling-back-local-and-remote-git-repository-by-1-commit
