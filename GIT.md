@@ -12,7 +12,7 @@
 
 *to give summary of commit* `git show abc1234 --stat`
 
-*view stages changes* `git diff --cached`
+*view staged changes* `git diff --cached`
 
 *Lists all the config details in that clone* `git config --list`
 
