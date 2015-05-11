@@ -44,6 +44,8 @@ Locally `git branch -D my_merged_branch`
 
 Remote `git push --delete origin my_merged_branch`
 
+BEFORE MERGE TO MASTER, SQUASH COMMITS!!!!!!!!! SON
+
 
 ***Sources***
 
