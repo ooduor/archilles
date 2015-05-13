@@ -38,3 +38,6 @@ redshift -l -1.300593:36.774244 -t 6500:6500 -b 0.5
    
 # Find the top 5 mem hoggers
    $ ps -eo pmem,pcpu,vsize,pid,cmd | sort -k 1 -nr | head -5
+
+#Just cool
+tree --noreport -fp
