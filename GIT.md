@@ -39,6 +39,10 @@ git pull               #to update the state to the latest remote master state
 git merge develop      #to bring chnages to local master from your develop branch
 git push origin master #push current HEAD to remote master branch
 ```
+
+### Getting the raw file from the repo
+Standing on scalable-kenya-counties `git cat-file blob 16bab8a^:counties-global.svg`
+
 ### Deleting a branch
 Locally `git branch -D my_merged_branch`
 
