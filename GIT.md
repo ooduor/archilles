@@ -37,6 +37,16 @@ git reset --hard HEAD^
 git push -f
 ```
 
+*Rename any other branch while pointing to any othet branch [5]*
+```
+git branch -m <newname>
+```
+
+*Rename the current local branch [5]*
+```
+git branch -m <oldname> <newname>
+```
+
 ### Branch merging process
 ```
 git checkout master
@@ -66,3 +76,4 @@ http://stackoverflow.com/questions/5189560/squash-my-last-x-commits-together-usi
 
 [3] http://stackoverflow.com/questions/4647301/rolling-back-local-and-remote-git-repository-by-1-commit
 [4] http://stackoverflow.com/questions/10725729/git-see-whats-in-a-stash-without-applying-stash
+[5] http://stackoverflow.com/questions/6591213/how-to-rename-local-branch
