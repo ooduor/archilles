@@ -65,6 +65,13 @@ Remote `git push --delete origin my_merged_branch`
 
 BEFORE MERGE TO MASTER, SQUASH COMMITS!!!!!!!!! SON
 
+### Git-merge-squash
+```
+git checkout master
+git merge --squash bugfix
+git commit
+```
+
 
 ***Sources***
 
@@ -77,3 +84,4 @@ http://stackoverflow.com/questions/5189560/squash-my-last-x-commits-together-usi
 [3] http://stackoverflow.com/questions/4647301/rolling-back-local-and-remote-git-repository-by-1-commit
 [4] http://stackoverflow.com/questions/10725729/git-see-whats-in-a-stash-without-applying-stash
 [5] http://stackoverflow.com/questions/6591213/how-to-rename-local-branch
+[6] http://stackoverflow.com/questions/5308816/how-to-use-git-merge-squash
