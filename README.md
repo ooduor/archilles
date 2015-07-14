@@ -44,3 +44,6 @@ tree --noreport -fp
 
 # Create a bootable disk
 sudo dd if=/home/anthony/Downloads/ubuntu-14.10-desktop-i386.iso of=/dev/sdc
+
+# Mounting remote dir locally without key login
+sshfs debian@192.168.7.2:/opt/secureapp secureapp -o PubkeyAuthentication=no
