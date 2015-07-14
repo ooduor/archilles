@@ -41,3 +41,6 @@ redshift -l -1.300593:36.774244 -t 6500:6500 -b 0.5
 
 #Just cool
 tree --noreport -fp
+
+# Create a bootable disk
+sudo dd if=/home/anthony/Downloads/ubuntu-14.10-desktop-i386.iso of=/dev/sdc
