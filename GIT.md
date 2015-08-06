@@ -72,6 +72,12 @@ git merge --squash bugfix
 git commit
 ```
 
+### Avoid the default merge message [7]
+```
+git merge --no-commit issue-#-name-title
+git commit -sm 'blah blah...'
+```
+
 
 ***Sources***
 
@@ -85,3 +91,4 @@ http://stackoverflow.com/questions/5189560/squash-my-last-x-commits-together-usi
 [4] http://stackoverflow.com/questions/10725729/git-see-whats-in-a-stash-without-applying-stash
 [5] http://stackoverflow.com/questions/6591213/how-to-rename-local-branch
 [6] http://stackoverflow.com/questions/5308816/how-to-use-git-merge-squash
+[7] http://stackoverflow.com/questions/3594894/how-to-avoid-merge-branch-name-of-branch-in-commit-messages
