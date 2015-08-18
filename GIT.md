@@ -90,12 +90,9 @@ git commit --fix abcd254
 
 ***Sources***
 
-http://stackoverflow.com/questions/134882/undoing-a-git-rebase
-
-http://stackoverflow.com/questions/5667884/how-to-squash-commits-in-git-after-they-have-been-pushed
-
-http://stackoverflow.com/questions/5189560/squash-my-last-x-commits-together-using-git/5201642#5201642
-
+[0] http://stackoverflow.com/questions/134882/undoing-a-git-rebase  
+[1] http://stackoverflow.com/questions/5667884/how-to-squash-commits-in-git-after-they-have-been-pushed  
+[2] http://stackoverflow.com/questions/5189560/squash-my-last-x-commits-together-using-git/5201642#5201642  
 [3] http://stackoverflow.com/questions/4647301/rolling-back-local-and-remote-git-repository-by-1-commit  
 [4] http://stackoverflow.com/questions/10725729/git-see-whats-in-a-stash-without-applying-stash  
 [5] http://stackoverflow.com/questions/6591213/how-to-rename-local-branch  
