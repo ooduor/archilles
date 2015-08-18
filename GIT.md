@@ -82,7 +82,7 @@ git commit -sm 'blah blah...'
 ```
 git reflog issue-name-of-branch
 ```
-### After finding the hash that you want to fix
+### After finding the hash that you want to fix [8]
 ```
 git commit --fix abcd254
 ```
@@ -96,8 +96,9 @@ http://stackoverflow.com/questions/5667884/how-to-squash-commits-in-git-after-th
 
 http://stackoverflow.com/questions/5189560/squash-my-last-x-commits-together-using-git/5201642#5201642
 
-[3] http://stackoverflow.com/questions/4647301/rolling-back-local-and-remote-git-repository-by-1-commit
-[4] http://stackoverflow.com/questions/10725729/git-see-whats-in-a-stash-without-applying-stash
-[5] http://stackoverflow.com/questions/6591213/how-to-rename-local-branch
-[6] http://stackoverflow.com/questions/5308816/how-to-use-git-merge-squash
-[7] http://stackoverflow.com/questions/3594894/how-to-avoid-merge-branch-name-of-branch-in-commit-messages
+[3] http://stackoverflow.com/questions/4647301/rolling-back-local-and-remote-git-repository-by-1-commit  
+[4] http://stackoverflow.com/questions/10725729/git-see-whats-in-a-stash-without-applying-stash  
+[5] http://stackoverflow.com/questions/6591213/how-to-rename-local-branch  
+[6] http://stackoverflow.com/questions/5308816/how-to-use-git-merge-squash  
+[7] http://stackoverflow.com/questions/3594894/how-to-avoid-merge-branch-name-of-branch-in-commit-messages  
+[8] http://fle.github.io/git-tip-keep-your-branch-clean-with-fixup-and-autosquash.html  
