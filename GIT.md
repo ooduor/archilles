@@ -78,6 +78,15 @@ git merge --no-commit issue-#-name-title
 git commit -sm 'blah blah...'
 ```
 
+### To fixup and commit that went without the proper changes. Mind lapse thing
+```
+git reflog issue-name-of-branch
+```
+### After finding the hash that you want to fix
+```
+git commit --fix abcd254
+```
+
 
 ***Sources***
 
