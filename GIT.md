@@ -86,6 +86,10 @@ git reflog issue-name-of-branch
 ```
 git commit --fix abcd254
 ```
+### [9] Make submodule checkout master branch or any other branch. Pedding it somehow
+```
+git config -f .gitmodules submodule.freeboard.branch master
+```
 
 
 ***Sources***
@@ -99,3 +103,4 @@ git commit --fix abcd254
 [6] http://stackoverflow.com/questions/5308816/how-to-use-git-merge-squash  
 [7] http://stackoverflow.com/questions/3594894/how-to-avoid-merge-branch-name-of-branch-in-commit-messages  
 [8] http://fle.github.io/git-tip-keep-your-branch-clean-with-fixup-and-autosquash.html  
+[9] https://git-scm.com/book/en/v2/Git-Tools-Submodules
