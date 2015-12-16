@@ -51,4 +51,9 @@ sshfs debian@192.168.7.2:/opt/secureapp secureapp -o PubkeyAuthentication=no
 ### Mounting erros esp dealing with encrypted usb drive [1]
 dmsetup remove /dev/mapper/luks-77ddcd10-fd0a-4aaf-b29b-3c716522a9cf
 
+### Stripping GPS data from photos
+pacman -S perl-image-exiftool
+Go to dir with the said images:
+exiftool -all= -tagsfromfile @ -gps:all *.jpg
+
 [1] http://ubuntuforums.org/showthread.php?t=1586318  
