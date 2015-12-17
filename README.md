@@ -56,4 +56,8 @@ pacman -S perl-image-exiftool
 Go to dir with the said images:
 exiftool -all= -tagsfromfile @ -gps:all *.jpg
 
+### Bluetooth misbehaves [2]
+sudo rfkill unblock bluetooth 
+
 [1] http://ubuntuforums.org/showthread.php?t=1586318  
+[2] https://forum.manjaro.org/index.php?topic=25264.0
