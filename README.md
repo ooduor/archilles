@@ -54,10 +54,12 @@ dmsetup remove /dev/mapper/luks-77ddcd10-fd0a-4aaf-b29b-3c716522a9cf
 ### Stripping GPS data from photos
 pacman -S perl-image-exiftool
 Go to dir with the said images:
-exiftool -all= -tagsfromfile @ -gps:all *.jpg
+  exiftool -all= -tagsfromfile @ -gps:all *.jpg
+  for i in *.jpg; do echo "Processing $i"; exiftool -all= "$i"; done
 
 ### Bluetooth misbehaves [2]
 sudo rfkill unblock bluetooth 
 
 [1] http://ubuntuforums.org/showthread.php?t=1586318  
 [2] https://forum.manjaro.org/index.php?topic=25264.0
+http://www.linux-magazine.com/Online/Blogs/Productivity-Sauce/Remove-EXIF-Metadata-from-Photos-with-exiftool
