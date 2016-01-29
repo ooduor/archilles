@@ -54,7 +54,6 @@ dmsetup remove /dev/mapper/luks-77ddcd10-fd0a-4aaf-b29b-3c716522a9cf
 ### Stripping GPS data from photos
 pacman -S perl-image-exiftool
 Go to dir with the said images:  
-  exiftool -all= -tagsfromfile @ -gps:all *.jpg  
   for i in *.jpg; do echo "Processing $i"; exiftool -all= "$i"; done  
 
 ### Bluetooth misbehaves [2]
