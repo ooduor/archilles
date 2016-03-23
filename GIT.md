@@ -53,6 +53,7 @@ git checkout master
 git pull               # to update the state to the latest remote master state
 git merge develop      # to bring chnages to local master from your develop branch
 git merge --squash --no-commit develop # to avoid the default git Merge message
+git merge --no-commit --no-ff # merge without fast-forwarding and stop commiting with default merge msg
 git push origin master # push current HEAD to remote master branch
 ```
 
