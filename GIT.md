@@ -112,3 +112,4 @@ git push -f origin branch-name
 [7] http://stackoverflow.com/questions/3594894/how-to-avoid-merge-branch-name-of-branch-in-commit-messages  
 [8] http://fle.github.io/git-tip-keep-your-branch-clean-with-fixup-and-autosquash.html  
 [9] https://git-scm.com/book/en/v2/Git-Tools-Submodules
+[10] http://stackoverflow.com/questions/10510462/force-git-push-to-overwrite-remote-files
