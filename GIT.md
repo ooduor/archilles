@@ -93,6 +93,12 @@ git commit --fix abcd254
 git config -f .gitmodules submodule.freeboard.branch master
 ```
 
+### [10] Rebase without repeating history by using --force
+```
+git rebase -i origin/master
+git push -f origin branch-name
+```
+
 
 ***Sources***
 
